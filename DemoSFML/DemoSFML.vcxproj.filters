@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Tools">
+      <UniqueIdentifier>{389df614-6bad-4a7b-bbfa-033ccbffaf86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Default">
+      <UniqueIdentifier>{1664fb03-5214-4149-b111-bc034a59e7f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Modules">
+      <UniqueIdentifier>{f3655154-29bd-4f7e-a260-c518c271e96f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Default">
+      <UniqueIdentifier>{e113d48e-a271-431d-a85f-c8f5764c8163}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Modules">
+      <UniqueIdentifier>{9c803dd3-d074-4bf8-b9fd-647c9988af4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Tools">
+      <UniqueIdentifier>{07ddb372-18d2-41f4-809a-1bb1e925a6d9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Collisions.cpp">
+      <Filter>Source Files\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>Source Files\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Random.cpp">
+      <Filter>Source Files\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState.cpp">
+      <Filter>Source Files\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Fx.cpp">
+      <Filter>Source Files\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files\Default</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files\Default</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Source Files\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Source Files\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="FishingMiniGame.cpp">
+      <Filter>Source Files\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="Common.cpp">
+      <Filter>Source Files\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Settings.cpp">
+      <Filter>Source Files\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="Credits.cpp">
+      <Filter>Source Files\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="Victory.cpp">
+      <Filter>Source Files\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="Selection.cpp">
+      <Filter>Source Files\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio.cpp">
+      <Filter>Source Files\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Question.cpp">
+      <Filter>Source Files\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="QuizGame.cpp">
+      <Filter>Source Files\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="HUD.cpp">
+      <Filter>Source Files\Modules</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Collisions.hpp">
+      <Filter>Resource Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Fx.hpp">
+      <Filter>Resource Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.hpp">
+      <Filter>Resource Files\Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Screen.hpp">
+      <Filter>Resource Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Random.hpp">
+      <Filter>Resource Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.hpp">
+      <Filter>Resource Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.hpp">
+      <Filter>Resource Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.hpp">
+      <Filter>Resource Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.hpp">
+      <Filter>Resource Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.hpp">
+      <Filter>Resource Files\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.hpp">
+      <Filter>Resource Files\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="FishingMiniGame.hpp">
+      <Filter>Resource Files\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings.hpp">
+      <Filter>Resource Files\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="Credits.hpp">
+      <Filter>Resource Files\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="Victory.hpp">
+      <Filter>Resource Files\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="Selection.hpp">
+      <Filter>Resource Files\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio.hpp">
+      <Filter>Resource Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Question.hpp">
+      <Filter>Resource Files\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="QuizGame.hpp">
+      <Filter>Resource Files\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="HUD.hpp">
+      <Filter>Resource Files\Modules</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
